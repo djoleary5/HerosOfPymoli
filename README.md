@@ -10,4 +10,12 @@ A set of poll data called [purchase_data.csv](election_results/Resources/purchas
 * Calculated the number of unique items, average purchase price, total number of purchases, and total revenue then organized them into a dataframe `totals`.
 * Created a dataframe of gender demographic data `genderCount` that includes percentage and count of male, female, and other/non-disclosed players who made in-game purchases.
 * Created a dataframe `genAn` of purchasing analysis broken down by gender that includes the purchase count, average purchase price, total purchase value and average purchase total per person.
+* Created a dataframe `ageGrp` of purchasing data that includes the purchase count, average purchase price, total purchase value and average purchase total per person broken down by age groups `<10`, `10-14`, `15-19`, `20-24`, `25-29`, `30-34`, `35-39`, `40+`.
+* Identified the top spenders by creating a dataframe `spendGrp` that included the purchase count, average purchase price, and total purchase value for each player.
+* Identified the most purchased items by creating a dataframe `popGrpAa` that includes the `Item ID`, `Item Name`, purchase count, item price, and total purchase value for each item, sorted by purchase count.
+* Identified the most profitable items (by total purchase value) by creating a dataframe `popGrpB` that includes the `Item ID`, `Item Name`, purchase count, item price, and total purchase value for each item, sorted by total purchase value.
 
+## Observations
+* The vast majority of players are male (84%) but female and other/non-disclosed players spent more per person, 4.47 & 4.56 respectively versus 4.07 for males.
+* A majority of players fall into the 20-24 age bracket though the age bracket that spent the most per person is 35-39 at 4.76 per player.
+* The most popular item is also the most profitable, 'Oathbreaker, Last Hope of the Breaking Storm'.
