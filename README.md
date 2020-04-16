@@ -6,4 +6,6 @@ The task is to analyze data from an independent gaming company's most recent fan
 A set of poll data called [purchase_data.csv](election_results/Resources/purchase_data.csv), which is composed of seven columns: `Purchase ID`, `SN`, `Age`, `Gender`, `Item ID`, `Item Name`, and `Price`.
 
 ## Steps Taken
-* Calculated the total number of players.
+* Calculated the total number of players. `There are 576 unique players.`
+* Calculated the number of unique items, average purchase price, total number of purchases, and total revenue then organized them into a dataframe `totals`.
+
