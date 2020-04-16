@@ -9,5 +9,5 @@ A set of poll data called [purchase_data.csv](election_results/Resources/purchas
 * Calculated the total number of players. `There are 576 unique players.`
 * Calculated the number of unique items, average purchase price, total number of purchases, and total revenue then organized them into a dataframe `totals`.
 * Created a dataframe of gender demographic data `genderCount` that includes percentage and count of male, female, and other/non-disclosed players who made in-game purchases.
-
+* Created a dataframe `genAn` of purchasing analysis broken down by gender that includes the purchase count, average purchase price, total purchase value and average purchase total per person.
 
